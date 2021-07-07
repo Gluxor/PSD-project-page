@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+
+<html lang="pl">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Strona Biuro Podróży</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <header>
+			<div class="linetop">
+				<div class = "center flexblock">
+
+					<ul class="flexblock transitionEl">
+						<li>
+							<a href="tel:12335467" target="blank" class="flexblock">
+								<img src="icons/phone.png" alt="obrazek phone"/>
+								<span>+48 12425 2423 </span>
+							</a>
+						</li>
+						<li>
+							<a href="https://google.pl" target="blank" class="flexblock">
+								<img src="icons/mailto.png" alt="obrazek pholder">
+								<span>mail@firma.pl </span>
+							</a>
+						</li>
+					</ul>
+					<div class="user flexblock">
+						<a href="#">Logowanie</a>
+						<span class="break">/</span>
+						<div class="registerbtn">
+							
+							<a href="#" class="register flexblock">
+								<div class="lock"></div>
+								Rejestracja</a>
+						</div>
+
+					</div>
+				</div>
+			</div>
+			<div class="linebottom center flexblock">
+				<a href="/" class="logo">
+					<img src="icons/logo.png" alt="logo"/>
+				</a>
+				<nav id="mobilemenu">
+					<a href="#mobile" onclick="mobile()" class="mobilemenu flexblock transitionEl">MENU<span></span></a>
+					<ul class="menu flexblock">
+						<li>
+							<a href="">
+								<img src="./icons/home.png" alt="home">
+							</a>
+						</li>
+						<li>
+							<a href="">oferta</a>
+						</li>
+						<li>
+							<a href="">promocje</a>
+						</li>
+						<li>
+							<a href="">aktualnosci</a>
+						</li>
+						<li>
+							<a href="">faq</a>
+						</li>
+						<li>
+							<a href="">regulamin</a>
+						</li>
+						<li>
+							<a href="">kontakt</a>
+						</li>
+					</ul>
+				</nav>
+					<ul class="social flexblock">
+						<li>
+							<a href="#" target="blank">
+								<img src="icons/facebook.png" alt="" />
+							</a>
+						</li>
+						<li>
+							<a href="#" target="blank">
+								<img src="icons/youtube.png" alt="" />
+							</a>
+						</li>
+						<li>
+							<a href="#" target="blank">
+								<img src="icons/snapchat.png" alt="" />
+							</a>
+						</li>
+					</ul>
+			</div>
+        </header>
+		<section class="searchbar center flexcol">
+			<div class="tekst flexcol">
+				<p>WYSZUKAJ</p>
+				<p>OFERTE PODRÓŻY</p>
+				<hr>
+			</div>
+			<div class="flexblock">
+				<form class="flexblock">
+					<img src="./icons/pin.png" alt="">
+					<input type="text" placeholder="Np. Wenecja..." name="" id="">
+				</form>
+				<form class="flexblock">
+					<img src="./icons/calendar.png" alt="">
+					<input placeholder="Wyjazd od.."  type="text" onfocus="(this.type='date')" onblur="(this.type='text')" id="date" />
+				</form>
+				<form class="flexblock">
+					<img src="./icons/calendar.png" alt="">
+					<input placeholder="Wyjazd do.."  type="text" onfocus="(this.type='date')" onblur="(this.type='text')" id="date" />
+				</form>
+			</div>
+			<div>
+				<button>wyszukaj</button>
+			</div>
+			<div class="choose">
+				<input type="radio" name="one" id="one">
+				<input type="radio" name="one" id="two">
+				<input type="radio" name="one" id="three">
+			</div>
+		</section>
+		<section class="podroze flexblock">
+
+			<div class="podrozemenu">
+				<ul class="opcjetop flexcol">
+					<li class="flexblock">
+						<a href="#mobile" onclick="" class="mobilemenu flexblock transitionEl">opcje podstawowe<span></span></a>
+					</li>
+					<li>
+						<a class="" href="">
+							
+							<img src="icons/star.png" alt="">
+							Topowe podróże
+						</a>
+					</li>
+					<li>
+						<a href="">
+							
+							<img src="icons/spark.png" alt="">
+							Last Minute
+						</a>
+					</li>
+					<li>
+						<a href="">
+							
+							<img src="icons/clock.png" alt="">
+							Ostatnio dodane
+						</a>
+					</li>
+					<li>
+						<a href="">
+							
+							<img src="icons/layers.png" alt="">
+							All in One
+						</a>
+					</li>
+					<li>
+						<a href="">
+							
+							<img src="icons/losowe.png" alt="">
+							Losowe
+						</a>
+					</li>
+				</ul>
+				<ul class="opcjebottom flexcol">
+					<li>	
+						<a href="#mobile" onclick="" class="mobilemenu flexblock transitionEl">opcje dodatkowe<span></span></a>	
+					</li>
+					<li>
+						<form class="flexcol">
+							<label class="flexblock" for="paszport">
+								<input type="checkbox" name="" id="paszport">
+								<p>Paszport</p>
+							</label>
+							
+							<label class="flexblock" for="hotel">
+								<input type="checkbox" name="" id="hotel">
+								<p>Hotel w cenie</p>
+							</label>
+							
+							<label class="flexblock" for="zarcie">
+								<input type="checkbox" name="" id="zarcie">
+								<p>Wyżywienie</p>
+							</label>
+						</form>
+					</li>
+				</ul>
+			</div>
+			<div class="lastminutebox">
+				<div class="headerbox flexcol">
+					<p>OPCJA</p>
+					<h2>LAST MINUTE</h2>
+					<hr>
+				</div>
+				<div class="list flexblock">
+					<div class="item transitionEl" data-aos="fade-up">
+						<div class="img flexblock" style="background:url(images/photo1.jpg)no-repeat center / cover">   <!-- COVER SKALUJE OBRAZEK W ZAEZNOSCI OD WIDOCZNEJ PRZESTRZENI-->
+							<a href="#">Europa-Budapeszt</a>
+						</div>
+						<strong class="place flexblock">WŁOCHY</strong>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ullamcorper auctor ligula, eget pulvinar urna sodales sed.</p>
+						<div class="linkboxred flexblock">
+							<div class="text"><strong>1900PLN</strong></div>
+							<div class="flexblock">
+								<a href="#">zobacz</a>
+							</div>
+						</div>
+					</div>
+					<div class="item transitionEl" data-aos="fade-up">
+						<div class="img flexblock" style="background:url(images/photo2.jpg)no-repeat center / cover">   <!-- COVER SKALUJE OBRAZEK W ZAEZNOSCI OD WIDOCZNEJ PRZESTRZENI-->
+							<a href="#">Europa-Budapeszt</a>
+						</div>
+						<strong class="place flexblock">ANGLIA</strong>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ullamcorper auctor ligula, eget pulvinar urna sodales sed.</p>
+						<div class="linkboxred flexblock">
+							<div class="text"><strong>1900PLN</strong></div>
+							<div class="flexblock">
+								<a href="#">zobacz</a>
+							</div>
+						</div>
+					</div>
+					<div class="item transitionEl" data-aos="fade-up">
+						<div class="img flexblock" style="background:url(images/photo3.jpg)no-repeat center / cover">   <!-- COVER SKALUJE OBRAZEK W ZAEZNOSCI OD WIDOCZNEJ PRZESTRZENI-->
+							<a href="#">Europa-Budapeszt</a>
+						</div>
+						<strong class="place flexblock">NIEMCY</strong>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ullamcorper auctor ligula, eget pulvinar urna sodales sed.</p>
+						<div class="linkboxred flexblock">
+							<div class="text"><strong>1900PLN</strong></div>
+							<div class="flexblock">
+								<a href="#">zobacz</a>
+							</div>
+						</div>
+					</div>
+					<div class="item transitionEl" data-aos="fade-up">
+						<div class="img flexblock" style="background:url(images/photo4.jpg)no-repeat center / cover">   <!-- COVER SKALUJE OBRAZEK W ZAEZNOSCI OD WIDOCZNEJ PRZESTRZENI-->
+							<a href="#">Europa-Budapeszt</a>
+						</div>
+						<strong class="place flexblock">POLSKA</strong>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ullamcorper auctor ligula, eget pulvinar urna sodales sed.</p>
+						<div class="linkboxred flexblock">
+							<div class="text"><strong>1900PLN</strong></div>
+							<div class="flexblock">
+								<a href="#">zobacz</a>
+							</div>
+						</div>
+					</div>
+					<div class="item transitionEl" data-aos="fade-up">
+						<div class="img flexblock" style="background:url(images/photo5.jpg)no-repeat center / cover">   <!-- COVER SKALUJE OBRAZEK W ZAEZNOSCI OD WIDOCZNEJ PRZESTRZENI-->
+							<a href="#">Europa-Budapeszt</a>
+						</div>
+						<strong class="place flexblock">USA</strong>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ullamcorper auctor ligula, eget pulvinar urna sodales sed.</p>
+						<div class="linkboxred flexblock">
+							<div class="text"><strong>1900PLN</strong></div>
+							<div class="flexblock">
+								<a href="#">zobacz</a>
+							</div>
+						</div>
+					</div>
+					<div class="item transitionEl" data-aos="fade-up">
+						<div class="img flexblock" style="background:url(images/photo6.jpg)no-repeat center / cover">   <!-- COVER SKALUJE OBRAZEK W ZAEZNOSCI OD WIDOCZNEJ PRZESTRZENI-->
+							<a href="#">Europa-Budapeszt</a>
+						</div>
+						<strong class="place flexblock">RUMUNIA</strong>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ullamcorper auctor ligula, eget pulvinar urna sodales sed.</p>
+						<div class="linkboxred flexblock">
+							<div class="text"><strong>1900PLN</strong></div>
+							<div class="flexblock">
+								<a href="#">zobacz</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="aktualnosci">
+			<div class="tekst flexcol">
+				<p>NAJNOWSZE</p>
+				<h2>AKTUALNOŚCI</h2>
+				<hr>
+			</div>
+			<div class="miejsca flexblock">
+				<div class="leftside ">
+					<div class="pole" ></div>
+					<a href="#">
+						<img src="./icons/folder.png">
+						Kategoria - MIEJSCA
+						<h2>LOREM IPSUM IZOHIPSUM</h2>
+					</a>
+					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis pariatur unde repellendus accusamus quaerat vel aperiam libero officia necessitatibus modi, facere illum, nisi soluta deserunt!</p>
+				</div>
+				<div class="rightside">
+					<div style="background:url('images/pole.jpg') no-repeat center / cover">
+						<a href="#">
+						
+							<img src="./icons/folder.png">
+							Kategoria - MIEJSCA
+							<h2>LOREM IPSUM IZOHIPSUM</h2>
+						</a>
+						
+					</div>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, itaque. Pariatur totam nulla perferendis quia.</p>
+					<div style="background:url('images/pole.jpg') no-repeat center / cover">
+						<a href="#">
+						
+							<img src="./icons/folder.png">
+							Kategoria - MIEJSCA
+							<h2>LOREM IPSUM IZOHIPSUM</h2>
+						</a>
+						
+					</div>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, soluta? Labore tempore beatae aperiam.</p>
+				</div>
+
+			</div>
+
+		</section>
+		<section class="galeriap">
+			<div class="tekst flexcol">
+				<p>GALERIA</p>
+				<h2>PODRÓŻY</h2>
+				<hr>
+			</div>
+		<div class=" gallery flexblock">	
+			<div class="galleryitem flexcol" style="background:url('images/city.jpg') no-repeat center / cover">
+				<strong class="place">KATEGORIA</strong>
+				<div class="linkboxred">
+					<strong>NAZWA GALERII</strong>
+				</div>
+			</div>
+			<div class="galleryitem flexcol" style="background:url('images/city.jpg') no-repeat center / cover">
+				<strong class="place">KATEGORIA</strong>
+				<div class="linkboxred">
+					<strong>NAZWA GALERII</strong>
+				</div>
+			</div>
+			<div class="galleryitem flexcol" style="background:url('images/city.jpg') no-repeat center / cover">
+				<strong class="place">KATEGORIA</strong>
+				<div class="linkboxred">
+					<strong>NAZWA GALERII</strong>
+				</div>
+			</div>
+			<div class="galleryitem flexcol" style="background:url('images/city.jpg') no-repeat center / cover">
+				<strong class="place">KATEGORIA</strong>
+				<div class="linkboxred">
+					<strong>NAZWA GALERII</strong>
+				</div>
+			</div>
+			<div class="buttons flexblock">
+				<button class="galbtn1 transitionEl"><</button>
+				<button class="galbtn2">Zobacz więcej</button>
+				<button class="galbtn1 transitionEl">></button>
+			</div>
+		</div>
+		</section>
+		<section class="zaloga flexblock">
+			<button class="galbtn1 transitionEl"><</button>
+			<div class="pracownik flexcol">
+				<img src="./images/ryj1.png" alt="">
+				<hr>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit recusandae iusto esse,
+						 corporis voluptatum repellendus numquam? Soluta tempora aperiam</p>
+						 
+				</img>
+				<h3>Jan Kowalski</h3>
+			</div>
+			<div class="pracownik flexcol">
+				<img src="./images/ryj2.png" alt="">
+				<hr>
+					<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores accusantium, iste libero quia error, totam delectus
+						 mollitia fugit vel reiciendis officiis nam cum cumque culpa veritatis </p>
+						 
+				</img>
+				<h3>Krystian Nowak</h3>
+			</div>
+			<button class="galbtn1 transitionEl">></button>
+		</section>
+		<section class="aboutus">
+			<div class="tekst flexcol">
+				<p>O NAS</p>
+				<h2>JAK DZIAŁAMY?</h2>
+				<hr>
+			</div>
+			<div class="aboutuscontainer flexblock">
+				<div class=" parag flexcol">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta voluptate, et molestiae dolor veniam voluptatibus porro eaque laudantium temporibus sit.<br><br>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum, alias voluptatum et nulla saepe consequuntur rerum ea voluptatem aliquam vel.
+				</p>
+				<button>Czytaj więcej</button>
+				</div>
+				<div class="aboutusimg">
+					<img src="./images/aboutus.jpg" alt="">
+				</div>
+					
+			</div>
+		</section>
+		<section class="kontakt">
+			<div class="tekst flexcol">
+				<p>FORMULARZ</p>
+				<h2>KONTAKTOWY</h2>
+				<hr>
+			</div>
+			<div class="formularz flexblock">
+				<div class="formularz_left flexcol">
+					<form class="flexblock">
+						<img src="./icons/person.png" alt="">
+						<input type="text" placeholder="Twoje imie, nazwisko" name="" id="">
+					</form>
+					<form class="flexblock">
+						<img src="./icons/mailto.png" alt="">
+						<input type="text" placeholder="Adres E-mail*" name="" id="">
+					</form>
+				</div>
+				<form class="formularz_right flexblock">
+					<img src="./icons/pencil.png" alt="">
+					<textarea placeholder="Treść wiadomości*"></textarea>
+				</form>
+			</div>
+			<div class="wyslijbutton flexblock">
+				<span>Pola oznaczone (*) są obowiązkowe.</span>
+				<button>Wyślij wiadomość</button>
+			</div>
+		</section>
+		<section class="mapa">
+				<div class="mapouter">
+					<div class="gmap_canvas">
+						<iframe id="gmap_canvas" src="https://maps.google.com/maps?q=krak%C3%B3w%20karmelicka&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+						</iframe>
+						<br>
+					</div>
+				</div>
+		</section>
+		<footer class="stopka">
+			<div class="watermark">
+				<div class="watermarkContent center">
+					<p>Projekt strona 2021 (c) / Wszystkie prawa zastrzeżone</p>
+				</div>
+			</div>
+		</footer>
+        <script src="script.js" async defer></script>
+    </body>
+</html>

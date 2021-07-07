@@ -1,0 +1,1198 @@
+*{
+	padding: 0; 
+	margin: 0; 
+	box-sizing: border-box; 
+	text-decoration: none;
+	list-style:none;
+	font-family: 'Open-Sans', sans-serif;
+}
+body{
+  background: url(../images/mainimage.png) no-repeat top 195px center;   
+}
+
+.center {
+	max-width: 1152px;
+	margin: 0 auto; 
+	padding: 0 15px; 
+	padding-top: 15px;
+}
+.flexblock{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.flexcol{
+	display: flex; 
+	justify-content: center;
+	flex-direction: column;
+	align-items: center; 
+}
+.linkboxred{
+	max-width:185px;
+	margin: 0 auto;
+	background:#b60056;
+	border-bottom:3px solid #ad0d3c;
+	border-radius: 20px;
+	height:48px;
+	color:#fff;
+}
+.linkboxred a{
+	color:#fff;
+	font-size:15px;
+}
+
+a, img, li span, :before, :after, .transitionEl{   
+	-webkit-transition: all 200ms linear;
+	-moz-transition: all 200ms linear;
+	-ms-transition: all 200ms linear;
+	-o-transition: all 200ms linear;
+	transition: all 200ms linear;
+}
+
+header{
+	margin-top: -18px;
+}
+/* linetop - header*/
+header .linetop{
+	background: #0f2235; 
+}
+header .linetop .center{
+	height: 65px;
+}
+
+header .linetop a {
+	font-size:0.7em;
+	color:#c6d2dd;
+}
+header .linetop a:hover {
+	color:#ff5;
+}
+header .linetop .register{
+	color: white;
+	justify-content: center;
+}
+header .linetop .register:hover{
+	color: blue;
+}
+header .linetop .break{
+	color: #7a7a7a;
+	font-size: 18px;
+	margin: 0px 10px;
+}
+header .linetop img {
+	margin-right: 10px;
+}
+header .linetop li+li{
+	margin-left: 45px;
+}
+header .linetop .registerbtn .lock{
+	height:33px;
+	width: 23px;
+	background: url(../icons/lock.png) no-repeat center;
+}
+header .linetop .registerbtn {
+	justify-content: space-evenly;
+	width: 100px;
+	height: 100%;
+	background-color: #cb1660;
+	border: 2px solid #cb1660;
+	border-radius: 15px;
+}
+
+/*header - linebottom*/
+
+header .linebottom{
+	height: 145px;
+	width: 100%;
+}
+
+header .linebottom .menu{
+	text-decoration: none;
+}
+
+header .linebottom .menu li{
+	margin: 0vmin 1.7vmin;
+}
+
+header .linebottom .menu a{
+	text-decoration: none;
+	color: black;
+}
+header .linebottom .social li{
+	margin: 0vmin 0.7vmin;
+}
+
+/*Searchbar section*/
+.searchbar{
+	height: 375px;
+	width: 100%;
+}
+.searchbar div{
+	height: 20px;
+	margin: 20px 0px 30px 0px;
+}
+.searchbar .tekst{
+	margin: 80px 0px;
+}
+.searchbar p{
+	text-align: center;
+	font-size: 1rem;
+	color: white;
+}
+.searchbar p+p{
+	text-align: center;
+	font-size: 2rem;
+	color: white;
+}
+.searchbar hr{
+width: 30px;
+margin-top: 5px;
+	color: white;
+}
+.searchbar form{
+	margin: 0px 10px 0px 10px;
+	height: 75px;
+	width: 300px;
+	background-color: white;
+	border: 1px solid #b60056;
+	border-radius: 15px;
+	justify-content: space-evenly;
+}
+.searchbar .flexblock input{
+	height: 100%;
+	width: 80%;
+	border: none;
+	border-radius: 10px;
+}
+.searchbar .flexblock input:focus{
+outline: none;
+
+}
+.searchbar button{
+	height: 55px;
+	width: 160px;
+	cursor: pointer;
+	border-radius: 20px;
+	border: none;
+	background: rgb(232,202,38);
+	background: linear-gradient(60deg, rgba(232,202,38,1) 0%, rgba(241,139,6,1) 70%, rgba(241,139,6,1) 100%); 
+}
+
+.searchbar .choose input{
+	height: 20px;
+	width: 20px;
+	border: 2px solid white;
+	border-radius: 20px;
+	background: white;
+	color: white;
+	-webkit-appearance: none;
+}
+.searchbar .choose input:checked{
+	background: none;
+}
+
+/*Section podroze*/
+.podroze{
+	margin: 5px 8%;
+}
+
+.podroze .headerbox{
+	height: 100%;
+	margin: 65px 0px 0px 20px;
+align-items: flex-start;
+color: #0f2235;
+}
+
+.podroze hr{
+	width: 20px;
+margin-top: 5px;
+	color: #0f2235;
+}
+
+
+.podroze .list{
+	margin: 0 0 0 0px;                            
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.podroze .item{
+	max-width:370px;
+
+    margin: 40px 5px;
+	padding-bottom: 10px;
+}
+.podroze .item:hover{
+	box-shadow: 0 0 20px 10px #7a7a7a;
+	border-radius:20px;
+}
+.podroze .item .img{
+	height:163px;
+	border-radius: 20px;
+	flex-direction:column;
+	justify-content: center;
+	position:relative;
+}
+.podroze .item p{
+	cursor: default;
+	margin: 30px auto 30px;
+	width:90%;
+	color:#767676;
+	font-size:15px;
+	line-height:22px;
+	text-align:center
+}
+
+.podroze .img a{
+	position:absolute;
+	font-size:0;
+	left:0;
+	right:0;
+	top:0;
+	Bottom:0;
+}
+.podroze .place{
+	cursor: default;
+	height:32px;
+	max-width:120px;
+	background:#f18b06;
+	color: white;
+	font: 400 16px Open Sans;
+	justify-content:center;
+	margin: -16px auto;								
+	position:relative;  
+}
+.podroze .break{
+	background: #ad0d3c;
+	height: 75%;
+	min-width: 1px;
+	margin: 2px auto;
+}
+.linkboxred .text{
+	font-size: 11px;
+	padding: 0 10px;
+}
+.linkboxred a{
+	height: 100%;
+	width: 100%;
+	padding: 12px 15px;
+}
+.linkboxred .text strong{
+	font-size: 20px;
+	margin-top: -5px;
+
+}
+.linkboxred div + div{
+	height: 100%;
+	width: 100%;
+	background:#99034a;
+	border-radius: 0px 20px 20px 0px;
+}
+
+
+/*MOBILEMENU - Burgir*/
+
+
+.mobilemenu span,
+.mobilemenu span:before,
+.mobilemenu span:after{
+	content:"";                   
+	min-width: 36px;
+	height: 2px;
+	background:white;
+	margin-left:10px;
+}
+.mobilemenu span:before,
+.mobilemenu span:after{
+	position:absolute;
+	margin: -10px 0 0 0;
+}
+.mobilemenu span:after{
+	position:absolute;
+	margin: 10px 0 0 0;
+}
+.mobilemenu:hover span:before{
+	margin:0;
+-moz-transform: rotate(45deg);
+-webkit-transform: rotate(45deg);
+-o-transform: rotate(45deg);
+-ms-transform: rotate(45deg);
+transform: rotate(45deg);
+}
+.mobilemenu:hover span{
+	background: transparent;
+}
+.mobilemenu:hover span:after{
+	margin:0;
+-moz-transform: rotate(-45deg);
+-webkit-transform: rotate(-45deg);
+-o-transform: rotate(-45deg);
+-ms-transform: rotate(-45deg);
+transform: rotate(-45deg);
+}
+/**************************/
+/*podroze menu Opcje*/
+
+.podrozemenu{
+	max-width: 240px;
+	width: 100%;
+	align-self: flex-start;
+}
+.podrozemenu .mobilemenu:hover span:after{
+	transform: none;
+	margin: 10px 0 0 0;
+}
+.mobilemenu:hover span:before{
+	margin: -10px 0 0 0;
+	transform: none;
+}
+.podrozemenu .mobilemenu:hover span{
+	background: white;
+}
+
+.podrozemenu .opcjetop{
+	width: 100%;
+	height: 400px;
+	margin: 65px 0px 0px auto;
+	background:#16293c;
+	border-radius: 20px;
+}
+.podrozemenu .opcjetop li{
+	width: 100%;
+	height: 70%;
+	padding: 5px 0px 5px 20px;
+	border: 1px solid #203953;
+}
+.podrozemenu .opcjetop li:nth-of-type(1){
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	padding: 10px;
+}
+.podrozemenu .opcjetop li:nth-of-type(6){
+	border-bottom: none;
+	border-left: none;
+	border-right: none;
+}
+.podrozemenu .opcjetop a img{
+	margin-right: 10px;
+}
+.podrozemenu .opcjetop a{
+	height: 100%;
+	color: white;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	
+}
+.podrozemenu .opcjetop .mobilemenu{
+	margin: 0 auto;
+	width: 100%;
+	justify-content: space-around;
+	cursor: default;
+}
+
+.podrozemenu .opcjebottom{
+	width: 100%;
+	height: 250px;
+	background:#16293c;
+	border-radius: 20px;
+	margin: 50px 0px 0px auto;
+
+}
+
+.podrozemenu .opcjebottom a{
+	width: 90%;
+	height: 100%;
+	color: white;
+	margin: 0 auto;
+}
+.podrozemenu .opcjebottom li{
+	width: 100%;
+	height: 75%;
+
+}
+.podrozemenu .opcjebottom .mobilemenu{
+
+	justify-content: space-around;
+	cursor: default;
+}
+.podrozemenu .opcjebottom form {
+
+	height: 100%;
+	margin: 0;
+	
+}
+.podrozemenu .opcjebottom form label{
+	width: 100%;
+	height: 70px;
+	color: white;
+	justify-content: flex-start;
+	text-align: center;
+	border: 1px solid #203953;
+	padding-left: 20px;
+	cursor: pointer;
+}
+.podrozemenu .opcjebottom form label:nth-of-type(3){
+
+	border-bottom: none;
+	border-left: none;
+	border-right: none;
+}
+
+.podrozemenu .opcjebottom form label p{
+
+	padding-left: 20px;
+
+}
+.podrozemenu .opcjebottom form label input{
+
+	height: 20px;
+	width: 20px;
+	border: 2px solid #c6d1dc;
+	border-radius: 10px;
+	background: none;
+	color: #c6d1dc;
+	-webkit-appearance: none;
+}
+.podrozemenu .opcjebottom form label input:checked{
+
+	background: #c6d1dc;
+	border: 4px double #16293c;
+}
+
+/*Section AKTUALNOSCI*/
+
+.aktualnosci{
+	background: #0f2235;
+	height: 100%;
+	width: 100%;
+
+}
+
+.aktualnosci a{
+color: white;
+}
+
+.aktualnosci p{
+	color: white;
+}
+
+.aktualnosci .pole{
+	border-radius: 20px;
+}
+
+
+.aktualnosci .tekst{
+	font-size: 1.5rem;
+	color: white;
+	padding-top: 40px;
+	padding-bottom: 25px;
+}
+.aktualnosci .tekst hr{
+	width: 25px;
+	height: 5px;
+	color: white;
+	margin: 5px;
+	background-color: white;
+}
+
+.miejsca{
+	height: 100%;
+	margin: 0 10%;
+	justify-content: space-evenly;
+	align-items: flex-start;
+}
+.miejsca p{
+		line-height: 35px;
+		margin-left: 20px;
+		margin-top: 10px;
+		margin-bottom: 30px;
+		width: 90%;
+}
+.miejsca a{
+
+	margin-left: 20px;
+	width: 100%;
+}
+
+.leftside{
+	height: 100%;
+	width: 45%;
+	align-items: flex-start;
+
+
+}
+.leftside .pole{
+	height: 230px;
+	width: 100%;
+	margin-bottom: 10px;
+	background:url('../images/pole.jpg');
+	background-repeat: no-repeat;
+	background-position: 100% 70%;
+	background-size: cover;
+
+}
+.leftside h2{
+margin-left: 20px;
+
+}
+
+.rightside{
+	height: 100%;
+	width: 35%;
+}
+
+.rightside div{
+	position: relative;
+	display: flex;
+	align-items: flex-end;
+	align-self: flex-start;
+	width: 80%;
+	border-radius: 20px;
+}
+
+.rightside a{
+margin: 20px;
+}
+
+/* SECTION GALERIA PODRÓŻY*/
+
+.galeriap .tekst{
+	font-size: 1.5rem;
+	color: #0f2235;
+	padding-top: 40px;
+	padding-bottom: 25px;
+}
+.galeriap .tekst hr{
+	width: 25px;
+	height: 5px;
+	color: #0f2235;
+	margin: 5px;
+	background-color: #0f2235;
+}
+
+.gallery{
+	margin: 0 15%;
+align-items: flex-start;
+flex-wrap: wrap;
+justify-content: space-evenly;
+
+}
+
+.galleryitem{
+	height: 110px;
+	width: 240px;
+	text-align: center;
+	background-image: url(../images/city.jpg);
+	border-radius: 20px;
+	margin: 5px 20px;
+	padding-top: 30px;
+
+}
+
+.galleryitem .place{
+	height:22px;
+	max-width:95px;
+	background:#f18b06;
+	color: white;
+	font: 400 15px Open Sans;
+	justify-content:center;
+	margin: -3px auto;					
+	position:relative; 
+	padding: 2px 5px 0px 5px;
+}
+
+.galleryitem .linkboxred{
+	max-width: 135px;
+	height: 30px;
+	font: 400 15px Open Sans;
+	border-radius: 0px;
+	padding: 7px 5px 0px 5px;
+}
+
+.gallery .buttons{
+	width: 100%;
+	justify-content: center;
+	margin: 20px 0px;
+}
+
+.buttons .galbtn1{
+	width:45px; 
+	height: 45px;
+	border-radius: 20px;
+	border: none;
+	background-color: #a09e9e;
+	color: white;
+	font-size: 30px;
+	text-align: center;
+	margin: 0px 10px;
+
+}
+.buttons .galbtn1:hover{
+	background-color: #c2bebe;
+}
+
+.buttons .galbtn2{
+	height: 55px;
+	width: 160px;
+	cursor: pointer;
+	border-radius: 20px;
+	border: none;
+	background: #0f2235;
+	color: white;
+}
+
+/*SECTION ZALOGA*/
+
+.zaloga{
+	height: 485px;
+	background: #333d48;
+	color: white;
+	justify-content: center;
+}
+.zaloga .galbtn1{
+	width:45px; 
+	height: 45px;
+	border-radius: 20px;
+	border: none;
+	background-color: transparent;
+	color: #788ea6;
+	font-size: 40px;
+	text-align: center;
+	margin: 0px 10px;
+
+}
+.zaloga .galbtn1:hover{
+
+	background-color: #a09e9e;
+	opacity: 0.3;
+
+
+}
+.pracownik{
+	text-align: center;
+	width: 360px;
+	margin: 0px 5%;
+	line-height: 2rem;
+}
+.pracownik hr{
+
+	width: 20%;
+	margin: 20px 0px 10px 0px;
+}
+.pracownik h3{
+
+	margin-top: 20px;
+}
+
+/*SECTION O NAS*/
+
+.aboutus .tekst{
+	font-size: 1.5rem;
+	color: #0f2235;
+	padding-top: 40px;
+	padding-bottom: 25px;
+}
+.aboutus .tekst hr{
+	width: 25px;
+	height: 5px;
+	color: #0f2235;
+	margin: 5px;
+	background-color: #0f2235;
+}
+
+.aboutus .parag{
+	width: 50%;
+	height: 100%;
+	line-height: 30px;
+	margin: 0px 50px 0px 0px;
+	
+
+}
+.aboutus button{
+	height: 55px;
+	width: 160px;
+	cursor: pointer;
+	border-radius: 20px;
+	border: none;
+	background: #0f2235;
+	color: white;
+	margin: 20px 0px 0px auto;
+}
+.aboutuscontainer {
+	margin: 50px 10%;
+	justify-content: space-evenly;
+
+}
+.aboutuscontainer img{
+	border-radius: 20px;
+	width: 100%;
+	height: 100%;
+	margin: 5px;
+}
+
+/*SECTION KONTAKT*/
+.kontakt{
+	height: 420px;
+	width: 100%;
+	background: url(../images/ryje1.jpg) no-repeat center;
+	background-size: cover;
+}
+
+.kontakt .tekst{
+	height: 135px;
+	font-size: 1.5rem;
+	color: white;
+	padding-top: 40px;
+	padding-bottom: 25px;
+}
+.kontakt .tekst hr{
+	width: 25px;
+	height: 5px;
+	color: white;
+	margin: 5px;
+	background-color: white;
+}
+
+.formularz{
+	height: 170px;
+	margin: 0;
+	justify-content: center;
+}
+.formularz .formularz_left{
+	margin: 0px 20px;
+
+}
+.formularz .formularz_left form{
+	margin: 15px 0px;
+	margin-right: 50px;
+	height: 70px;
+	width: 470px;
+	background: white;
+	border-radius: 20px;
+	border: 1px solid #b60056;
+	justify-content: space-evenly;
+
+}
+.formularz .formularz_left input{
+	border: none;
+	width: 80%;
+	height: 100%;
+
+}
+.formularz .formularz_left input:focus{
+	outline: none;
+	}
+
+.formularz .formularz_right{
+		margin: 20px 0px;
+		margin-left: 50px;
+		height: 170px;
+		width: 470px;
+		background: white;
+		border-radius: 20px;
+		border: 1px solid #b60056;
+		justify-content: flex-start;
+		align-items: flex-start;
+		padding: 20px 0px 0px 10px;
+
+
+	
+	}
+.formularz .formularz_right textarea{
+	border: none;
+	width: 90%;
+	height: 90%;
+	resize: none;
+	}
+
+.formularz .formularz_right textarea:focus{
+	outline: none;
+		}
+
+.formularz .formularz_right img{
+margin: 0px 10px 0px 0px;
+}
+
+.wyslijbutton {
+	height: 100px;
+	width: 78%;
+	margin: 10px 0% 0px 0%;
+	justify-content: flex-end;
+}
+.wyslijbutton span{
+	margin: 0px 20px;
+	color: white;
+	font-size: 12px;
+}
+
+.wyslijbutton button{
+	height: 55px;
+	width: 160px;
+	cursor: pointer;
+	border-radius: 20px;
+	border: none;
+	background: rgb(232,202,38);
+	background: linear-gradient(60deg, rgba(232,202,38,1) 0%, rgba(241,139,6,1) 70%, rgba(241,139,6,1) 100%); 
+}
+
+
+/*SECTION MAPA*/
+
+.mapa{
+	width: 100%;
+	height: 300px;
+}
+.mapouter{
+	width: 100%;
+	height: 300px;
+}
+.mapouter iframe{
+	width: 100%;
+	height: 300px
+}
+
+/*SECTION STOPKA*/
+
+.stopka{
+	height: 125px;
+}
+.watermark{
+	height: 100%;
+	background: #14283d;
+}
+.watermarkContent{
+	height: 100%;
+	color: #557497;
+	max-width: 600px;
+	text-align: center;
+	padding-top: 55px;
+}
+
+/*MOBILE MENU - HEADER*/
+header .mobilemenu{
+	display:none;
+}
+header .mobilemenu span,
+header .mobilemenu span:before,
+header .mobilemenu span:after{
+	content:"";                    
+	min-width: 36px;
+	height: 2px;
+	background:#fff;
+	margin-left:10px;
+}
+header .mobilemenu span:before,
+header .mobilemenu span:after{
+	position:absolute;
+	margin: -10px 0 0 0;
+}
+header .mobilemenu span:after{
+	position:absolute;
+	margin: 10px 0 0 0;
+}
+header .mobilemenu:hover span:before{
+	margin:0;
+-moz-transform: rotate(45deg);
+-webkit-transform: rotate(45deg);
+-o-transform: rotate(45deg);
+-ms-transform: rotate(45deg);
+transform: rotate(45deg);
+}
+header .mobilemenu:hover span{
+	background: transparent;
+}
+header .mobilemenu:hover span:after{
+	margin:0;
+-moz-transform: rotate(-45deg);
+-webkit-transform: rotate(-45deg);
+-o-transform: rotate(-45deg);
+-ms-transform: rotate(-45deg);
+transform: rotate(-45deg);
+}
+
+/*RWD                                                       */
+
+@media (max-width:1650px){
+
+	.podroze .list{
+		justify-content: space-evenly;
+	
+	}
+	.podroze .headerbox{
+		justify-content: center;
+		align-items: center;
+		margin-left: 0px;
+	}
+	.galeriap .gallery{
+		display: grid;
+		grid-template-columns: auto auto;
+		justify-content: center;
+	}
+	.gallery .buttons{
+		grid-column: 1 / 3;
+	}
+}
+	@media (max-width:1210px){
+		.podroze .item{
+			width:250px;
+		}
+		.podroze .list .item:nth-of-type(5){
+			display: none;
+		}
+		.podroze .list .item:nth-of-type(6){
+			display: none;
+		}
+
+		.aktualnosci .miejsca{
+			font-size: 0.4rem;	
+			}
+			.aktualnosci .miejsca p{
+				font-size: 0.6rem;
+				line-height: initial;
+			}
+			.aktualnosci .miejsca a{
+		margin: 10px;
+			}
+			.aktualnosci .pole{
+				height: 10vh;
+			}
+
+}
+
+@media (max-width:1100px){
+	.kontakt{
+		height: 100%;
+	}
+	.kontakt .formularz form{
+		height: 40px;
+		width: 50vw;
+		margin-right: 0px;
+	}
+	.kontakt .formularz{
+		flex-direction: column;
+		margin: 20px 0px;
+	}
+	.kontakt .formularz_left{
+		justify-content: center;
+	}
+	.kontakt .formularz_right{
+		margin: 0px 50px 0px 0px;
+		height: 40px;
+		padding: 10px;
+		width: 50vw;
+	}
+
+}
+@media (max-width:1000px){
+	header .linebottom nav ul{
+		display:none;
+		position:fixed;
+		left:10px;
+		top:210px;
+		width: 120px;
+		margin-top:30px;
+		background: black;
+		opacity:0.7;
+		border-radius: 20px;
+	}
+	header .linebottom nav li{                     
+		text-align:center;
+		padding: 10px 0px;
+	
+	}
+	header .linebottom .menu a{
+		text-decoration: none;
+		color: white;
+	}
+
+	header .linebottom nav ul a{                    
+		text-align:center;
+		
+	}
+		header .linebottom nav.active ul{
+		display:block;
+	}
+	header .mobilemenu{
+		display:inline-flex; 
+	position:fixed;
+	left: 10px;
+	top:200px;
+	color: yellow;
+	background: black;
+	opacity:0.7;
+	height: 35px;
+	width: 120px;
+	padding: 15px;
+	border-radius: 20px;
+	}
+
+	.searchbar div.flexblock{
+		flex-direction: column;
+		height: 120px;
+		padding: 0;
+		margin: 0;
+	}
+	.searchbar div.flexblock form{
+		margin: 5px 0px;
+
+
+	}
+	.searchbar .tekst{
+		margin: 80px 0px 50px 0px;
+	}
+
+
+}
+@media (max-width:930px){
+	.podroze .item{
+		width:210px;
+	}
+}
+
+@media (max-width:800px) {
+	
+	.podroze{
+		margin: 0px 10px;
+		
+	}
+	.podroze .headerbox{
+		align-items: flex-start;
+		margin-left: 10px;
+	}
+
+	.podroze .list{
+		justify-content: flex-start;
+		margin-left: 10px;
+
+	}
+
+
+
+
+}
+@media (max-width:826px){
+	.podroze{
+		justify-content: flex-start;
+		align-items: flex-start;
+	}
+	.podroze .lastminutebox {
+		height: 100%;
+		width: 100%;
+		align-items: flex-start;
+		justify-content: flex-start;
+	}
+	.podroze .list div+div{
+		display: none;
+	}
+	.podroze .list .item:nth-of-type(2){
+		display: block;
+	}
+	.podroze .list .item{
+		height: 50%;
+		width: 100%;
+		margin-top: 5px;
+	}
+	.podroze .linkboxred .flexblock{
+		display: block;
+		padding-top: 10px;
+	}
+	.zaloga p{
+		font-size: 0.7rem;
+		line-height: 20px;
+	}
+	.zaloga .pracownik{
+		width: 40%;
+	}
+	.aboutuscontainer p{
+		font-size: 0.7rem;
+		line-height: 15px;
+	}
+}
+@media (max-width:600px){
+	.galeriap .galleryitem{
+		width: 40vw;
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+	.zaloga {
+		align-items: center;
+		justify-content: flex-start;
+	}
+	.zaloga .pracownik img{
+		width: 100%;
+	}
+	.zaloga .pracownik p{
+		line-height: initial;
+
+	}
+	.aboutuscontainer .parag{
+		font-size: 0.7rem;
+		line-height: 10px;
+		margin: 0;
+	}
+	.aboutuscontainer p{
+		font-size: 0.7rem;
+		line-height: 10px;
+	}
+	.aboutuscontainer .aboutusimg{
+		height: 100px;
+		align-self: flex-start;
+	}
+		
+	.kontakt .formularz form{
+		height: 40px;
+		width: 70vw;
+	}
+	.kontakt .formularz_right{
+		width: 70vw;
+	}
+}
+
+@media (max-width:480px){
+	.linetop .center ul{
+		display: none;
+		width: 0;
+	}
+	.linetop .user {
+		margin: 0 0 0 auto;
+	}
+}
+@media (max-width:400px){
+
+
+	.podroze .headerbox{
+		font-size: 4.5vw;
+	}
+	.podroze .list .item{
+		width: 160px;
+	}
+	.podroze .list .item p{
+		justify-content: flex-start;
+		margin-left: 10px;
+		font-size: 2.5vw;
+	}
+
+	.podroze .list .item .linkboxred strong{
+		width: 50px;
+		font-size: 3vw;
+	}
+	.podrozemenu{
+		font-size: 2.5vw
+	}
+	.podrozemenu a{
+		padding: 5px;
+	}
+	.podrozemenu li{
+		padding: 0px;
+	}
+	.aktualnosci .miejsca{
+		margin: 0px;
+	}
+	.aktualnosci .miejsca p{
+		margin-left: 0px;
+		font-size: 2vw;
+		line-height: initial;
+			}
+
+}
